@@ -1,0 +1,122 @@
+.register{
+
+
+    .register-container{
+
+        h3{
+            font-size: 24px;
+            font-weight: 600;
+            color: #0f2444;
+            line-height: 80px;
+
+        }
+
+        hr{
+            border: none;
+            border-bottom: 1px solid rgb(14, 113, 14);
+            overflow: visible;
+            
+        }
+
+        .register-topConten{
+            width: 400px;
+            margin: auto;
+            text-align: center;
+
+            img{
+                height:150px;
+            }
+            h3{
+                font-size: 24px;
+                font-weight: 600;
+                color: #595c7d;
+            }
+
+            p{
+                font-size: 16px;
+                color: #595c7d;
+                font-weight: 500px;
+            }
+        }
+
+        .registration-NID{
+            width: 400px;
+            margin: 0px auto 50px; 
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+            padding: 15px 20px;
+            border-radius: 5px;
+            
+            form{
+
+                input{
+                    width: 100%;
+                    height: 45px;
+                    margin: 10px 0px;
+                    outline: none;
+                    border: 1px solid rgba(128, 128, 128, 0.776);
+                    border-radius: 3px;
+                    &::placeholder{
+                        padding-left: 10px;
+                    }
+
+                }
+
+                .Button-bold{
+                    width: 100%;
+                    display: block;
+                    background-color:#006747;
+                    border: none;
+                    padding: 9px 0px;
+                    color: white;
+                    font-weight: 600; 
+                    border-radius: 3px;
+                    margin: 10px 0px;
+
+
+                }
+
+                .button-outline{
+                    width: 100%;
+                    display: block;
+                    border: 1px solid #006747;
+                    padding: 9px 0px;
+                    color: #006747;
+                    font-weight: 600; 
+                    border-radius: 3px;
+                    margin: 10px 0px;
+                    background-color: transparent;
+                    transition: all ease-in-out .1s;
+
+                    &:hover{
+                        background-color: #006747;
+                        color: white;
+                        
+                    }
+                }
+
+                p{
+                    color: #595c7d;
+                    font-size: 15px;
+                    font-weight: 500;
+                    text-align: center;
+                    padding: 10px 0px;
+                }
+
+                a{
+
+                    display: block;
+                    text-align: center;
+                    font-weight: 700;
+                    margin-top: 30px;
+                    
+                    &:hover{
+                        color: #011d14;
+                    }
+                }
+            }
+
+            
+
+        }
+    }
+}

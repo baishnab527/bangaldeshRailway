@@ -1,0 +1,102 @@
+.Footer{
+    background-color: white;
+    border-top: 1px solid rgb(183, 183, 183);
+    padding: 5px 0px;
+
+    .Footer-container{
+
+        .footer-top{
+            ul{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 30px;
+
+                li{
+                    a{
+                        img{
+                            height: 30px;
+                            margin: 15px 0px;
+                        }
+                    }
+                }
+
+        
+            }
+
+
+        }
+    }
+
+    .footer-Middle{
+        border-top: 1px solid rgb(183, 183, 183);
+        border-bottom: 3px solid #079d49;
+
+        .footer-Middle-container{
+            p{
+                color: #333;
+                font-size: 14px;
+                font-weight: 600;
+                text-align: center;
+                margin: 50px 0px;
+            }
+                
+        }
+    }
+   
+   .footer-bootom-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0px;
+
+        .footer-left{
+            width: 33%;
+            img{
+                height: 50px;
+                width: auto;
+            }
+        }
+
+        .footer-middle{
+            width: 33%;
+            text-align: center;
+            p{
+                font-size: 14px;
+                color: #079d49;
+                font-weight: 500;
+                cursor: pointer;
+
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .footer-right{
+            width: 33%;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            gap: 5px;
+
+            img{
+                height: 60px;
+            };
+            
+            .footer-right-content{
+                h3{
+                    font-size: 22px;color:#da924e ;
+                }
+
+                p{
+                    font-size: 15px;
+                    color: #079d49;
+
+                }
+            }
+
+        }
+
+    }
+}

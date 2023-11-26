@@ -1,0 +1,61 @@
+.header{
+    .header-container{
+        h3{
+            color:#0f2444 ;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 80px;
+        }
+
+        .contact-code{
+            width: 600px;
+            margin: auto;
+
+            .contact-content{
+                box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+                padding: 15px 10px;
+                
+                p{
+                    font-size: 14px;
+                    color: #0f2444;
+                    margin: 0px;
+                    line-height: 15px;
+                };
+            }
+            
+            .contact-number{
+                border: 1px solid #f0f1fa;
+                box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+                padding: 15px 10px;
+                display: flex;
+                justify-content: space-between;
+
+                h4{
+                    color: #0f2444;
+                    font-size: 22px;
+                }
+            }
+
+            .contact-eamil{
+                border: 1px solid #f0f1fa;
+                box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+                padding: 15px 10px;
+
+                p{
+                    color: #0f2444;
+                }
+
+                .email{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    h5{
+                        font-size: 20px;
+                        
+                    }
+                }
+            }
+
+        }
+    }
+}

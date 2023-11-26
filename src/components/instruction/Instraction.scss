@@ -1,0 +1,52 @@
+.instruction{
+
+    padding: 50px 0px;
+
+    .instruction-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+
+        .instraction-left{
+            width: 40%;
+            img{
+                width: 100%;
+            }
+        }
+
+        .instraction-right{
+            width: 60%;
+
+            h3{
+                color:#023623;
+                font-size: 23px;
+                font-weight: 700;
+                margin-bottom: 20px;
+                margin-left: 30px;
+            }
+
+            ul{
+                li{
+                    list-style: none;
+                    display: flex;
+                    align-items: start;
+
+                    span{
+                        font-size: 25px;
+                        color: #023623;
+                        margin-top: -7px;
+                        margin-right: 10px;
+                    }
+
+                    p{
+                        color: #023623;
+                        font-weight: 500;
+                        font-size: 15px;
+
+                    }
+                }
+            }
+        }
+    }
+}

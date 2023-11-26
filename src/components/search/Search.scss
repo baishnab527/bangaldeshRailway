@@ -1,0 +1,73 @@
+.Search{
+     padding: 50px 0px;
+    .Search-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .Search-left{
+
+            width: 49%;
+
+            label{
+                font-size: 14px;
+                font-weight: 600;
+            }
+
+            input{
+                &::placeholder{
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+            }
+
+        }
+
+        .Search-right{
+            background-image: url("https://bangladesh-railway.s3-ap-southeast-1.amazonaws.com/production/content-media/b66f9a625698a6728b8824899d19a771.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-clip: border-box;
+            width: 49%;
+            height: 350px;
+            border-radius: 10px; 
+
+            .banner-content{
+
+                line-height: 10px;
+                margin-right:10px ;
+                margin-top: 10px;
+
+                p{
+                    text-align:end;
+                    font-size: 15px;
+                    span{
+                        color: #006847;
+                        font-weight: 500;
+                    }
+
+                }
+                .banner-image{
+
+                    ul{
+
+                        display: flex;
+                        align-items: center;
+                        justify-content: end;
+                        gap: 7px;
+                        li{
+                            a{
+
+                                img{
+                                    height: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

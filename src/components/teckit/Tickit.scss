@@ -1,0 +1,81 @@
+.tickit{
+    padding: 100px 0px;
+    .tickit-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 150px;
+
+        .search{
+            text-align: left;
+            width: 33%;
+            img{
+                height: 200px;
+                margin-bottom: 10px;
+            }
+
+            h3{
+                font-size: 25px;
+                font-weight: 700;
+                
+            }
+
+            p{
+
+              font-size: 16px;
+              font-weight: 400;
+              color: #3f3f3f;    
+            }
+        }
+
+        .select{
+
+            width: 33%;
+            img{
+                height: 200px;
+                margin-bottom: 10px;
+            }
+
+            h3{
+                font-size: 25px;
+                font-weight: 700;
+                text-align: left;
+
+                
+            }
+
+            p{
+              text-align: left;
+              font-size: 16px;
+              font-weight: 400;
+              color: #3f3f3f;    
+            }
+        }
+
+        .pay{
+            width: 33%;
+            text-align: end;
+            img{
+                height: 200px;
+                margin-bottom: 10px;
+            }
+
+            h3{
+                font-size: 25px;
+                font-weight: 700;
+                text-align: left;
+
+                
+            }
+
+            p{
+              text-align: left;
+              font-size: 16px;
+              font-weight: 400;
+              color: #3f3f3f;    
+            }
+
+        }
+    }
+
+}
